@@ -41,6 +41,7 @@ header > p {
     padding-bottom: 50px;
 }
 
+
 header a, footer a {
     color: white;
     text-decoration: none;
@@ -48,7 +49,10 @@ header a, footer a {
 }
  
 header a:hover, footer a:hover {
-    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.361);
+    border-radius: 5px;
+    padding: 1px;
+    transition: inherit 0.5s;   
 }
 
 section {
